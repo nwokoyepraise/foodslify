@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_orange"
+    tools:context=".LaunchScreen.WelcomeActivity">
+
+    <RelativeLayout
+        android:id="@+id/rL1"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginTop="4dp"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/main_art"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/welcome_art"
+            android:translationY="-35dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:layout_below="@id/rL1"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/onboard_footer_bckgrnd"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tvWelcomeHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comic_regular"
+            android:text="Welcome"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvWelcomeBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvWelcomeHeader"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/signal_white"
+            android:gravity="end"
+            android:paddingStart="12dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="12dp"
+            android:paddingBottom="8dp"
+            android:text="I am here to:"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <RelativeLayout
+            android:id="@+id/rlBuyFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvWelcomeBody"
+            android:layout_marginTop="10dp"
+            android:background="@color/signal_white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvBuyFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/comic_regular"
+                android:paddingStart="12dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="8dp"
+                android:text="Buy Food"
+                android:textColor="@color/main_orange"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivBuyFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:visibility="invisible"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_baseline_check_circle_24" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlSellFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlBuyFood"
+            android:layout_marginTop="10dp"
+            android:background="@color/signal_white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvSellFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/comic_regular"
+                android:paddingStart="12dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="8dp"
+                android:text="Sell Food"
+                android:textColor="@color/main_orange"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivSellFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:visibility="invisible"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/ic_baseline_check_circle_24" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/bContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlSellFood"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="CONTINUE" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Foodslify" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/main_orange</item>
+        <item name="colorPrimaryVariant">@color/sub_orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/main_orange</item>
+        <item name="colorSecondaryVariant">@color/main_orange</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="full_screen" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/main_orange</item>
+        <item name="colorPrimaryDark">@color/sub_orange</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:navigationBarColor">@color/main_orange</item>
+    </style>
+
+    <style name="Theme.Foodslify.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Foodslify.AppBarOverlay" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/sub_orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/sub_orange</item>
+        <item name="colorSecondary">@color/main_orange</item>
+        <item name="colorSecondaryVariant">@color/main_orange</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+
+    <style name="Theme.Foodslify.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

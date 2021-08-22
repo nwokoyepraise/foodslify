@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/main_orange"
+    tools:context=".LaunchScreen.FirstOnboardFragment">
+
+    <RelativeLayout
+        android:id="@+id/rL1"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:padding="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/main_art"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:translationY="-35dp"
+            android:src="@drawable/first_onboard_art" />
+
+        <ImageView
+            android:id="@+id/sub_art"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_art"
+            android:translationY="-50dp"
+            android:src="@drawable/first_small_chops" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_below="@id/rL1"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/onboard_footer_bckgrnd"
+        android:padding="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tvOnboardHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order &amp; Let\'s Eat Healthy Food"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvOnboardBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvOnboardHeader"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/first_onboard_body"
+            android:textColor="@color/main_ash"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/bSkip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvOnboardBody"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="SKIP" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

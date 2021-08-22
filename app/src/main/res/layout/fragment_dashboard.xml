@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuyerModule.Dashboard.ui.main.PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <RelativeLayout
+        android:id="@+id/rlItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="15dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
+        android:background="@drawable/shadow_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvIcon"
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="7dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food_chicken"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="Max's Fried Chicken"/>
+
+        <ImageView
+            android:id="@+id/ivCheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/ic_baseline_check_circle_24"
+            android:paddingEnd="7dp"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon"
+            android:layout_below="@id/tvTitle"
+            android:text="2x suha samin, vegetables"/>
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_below="@id/tvDescription"
+            android:text="$29.50"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlItem2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="10dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
+        android:paddingBottom="10dp"
+        android:paddingStart="15dp"
+        android:background="@drawable/shadow_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rlItem">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvIcon2"
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="7dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food_egusi"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTitle2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon2"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="African Egusi Soup"/>
+
+        <ImageView
+            android:id="@+id/ivCheck2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_check_circle_24"
+            android:visibility="invisible"
+            android:paddingEnd="7dp"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:id="@+id/tvDescription2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon2"
+            android:layout_below="@id/tvTitle2"
+            android:text="2x semo, 3x vegetables"/>
+        <TextView
+            android:id="@+id/tvPrice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon2"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_below="@id/tvDescription2"
+            android:text="$22.50"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlItem3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="10dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
+        android:paddingBottom="10dp"
+        android:paddingStart="15dp"
+        android:background="@drawable/shadow_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rlItem2">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvIcon3"
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="7dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food_jollof"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon3"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="Nigerian Jollof Rice"/>
+
+        <ImageView
+            android:id="@+id/ivCheck3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_check_circle_24"
+            android:visibility="invisible"
+            android:paddingEnd="7dp"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:id="@+id/tvDescription3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon3"
+            android:layout_below="@id/tvTitle3"
+            android:text="2x suha samin, 3x vegetables"/>
+        <TextView
+            android:id="@+id/tvPrice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon3"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_below="@id/tvDescription3"
+            android:text="$33.50"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlItem4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
+        android:paddingStart="15dp"
+        android:background="@drawable/shadow_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rlItem3">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvIcon4"
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="7dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food_pasta"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTitle4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon4"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="Soli Pasta"/>
+
+        <ImageView
+            android:id="@+id/ivCheck4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/ic_baseline_check_circle_24"
+            android:paddingEnd="7dp"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:id="@+id/tvDescription4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon4"
+            android:layout_below="@id/tvTitle4"
+            android:text="2x semo, 3x vegetables"/>
+        <TextView
+            android:id="@+id/tvPrice4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon4"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_below="@id/tvDescription4"
+            android:text="$20.99"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlItem5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:focusable="true"
+        android:clickable="true"
+        android:paddingStart="15dp"
+        android:background="@drawable/shadow_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rlItem4">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvIcon5"
+            android:layout_width="85dp"
+            android:layout_height="70dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="7dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food_bowl"/>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tvTitle5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon5"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:text="Spring Bowl"/>
+
+        <ImageView
+            android:id="@+id/ivCheck5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_check_circle_24"
+            android:visibility="invisible"
+            android:paddingEnd="7dp"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:id="@+id/tvDescription5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon5"
+            android:layout_below="@id/tvTitle5"
+            android:text="2x semo, 3x vegetables"/>
+        <TextView
+            android:id="@+id/tvPrice5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cvIcon5"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_below="@id/tvDescription5"
+            android:text="$20.99"/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
