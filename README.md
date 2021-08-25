@@ -46,11 +46,9 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/nwokoyepraise/foodslify">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
-
-  <h3 align="center">Best-README-Template</h3>
 
   <p align="center">
     One-stop e-commerce shop for food including delivery!
@@ -194,4 +192,4 @@ Project Link: [https://github.com/nwokoyepraise/foodslify](https://github.com/nw
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/praise-chibuike-7bb76718a
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot_0.png
