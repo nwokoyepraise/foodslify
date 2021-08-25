@@ -78,8 +78,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 Foodslify is a multi-user mobile (android) project for an e-commerce startup that focuses on food delivery for one of its clients (consumers) whilst providing also providing a platform for food merchants to have access to a wilder audience with small scale food outlets being its most-prized target audience.
 
 The application serves as a platform to bring merchants and consumers closer seamlessly where consumers have personalized shopping experience and merchants able to have first-hand experience and feedback with their clients.
