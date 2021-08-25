@@ -16,32 +16,15 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 -->
 
+![screenshot_0](https://user-images.githubusercontent.com/65955286/130718372-da4bb617-5342-4c27-99e6-fe3c652590f4.png)
+![screenshot_1](https://user-images.githubusercontent.com/65955286/130718376-43d2628e-f406-44a8-a6d0-112a1791063b.png)
+![screenshot_2](https://user-images.githubusercontent.com/65955286/130718379-21372d40-7481-4768-9566-a52132351f12.png)
+![screenshot_3](https://user-images.githubusercontent.com/65955286/130718380-2e84f5e1-c3b1-42f6-ab5d-d4500b171f00.png)
+![screenshot_4](https://user-images.githubusercontent.com/65955286/130718384-6fb91836-4681-43a8-b302-34596a77a725.png)
+![screenshot_5](https://user-images.githubusercontent.com/65955286/130718387-858c88e0-3964-46d3-a91c-fa35de11a1e6.png)
+![screenshot_7](https://user-images.githubusercontent.com/65955286/130718388-54cb4863-29e6-48ec-937e-c6d99d2b5172.png)
 
 
-<!-- PROJECT LOGO -->
-<!--<br />
-<p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br /> 
-
-    <a href="https://github.com/nwokoyepraise/foodslify"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/nwokoyepraise/foodslify">View Demo</a>
-    ·
-    <a href="https://github.com/nwokoyepraise/foodslify/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/nwokoyepraise/foodslify/issues">Request Feature</a>
-  </p>
-</p>
--->
 
 <!-- PROJECT LOGO -->
 <br />
@@ -192,4 +175,3 @@ Project Link: [https://github.com/nwokoyepraise/foodslify](https://github.com/nw
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/praise-chibuike-7bb76718a
-[product-screenshot]: images/screenshot_0.png
