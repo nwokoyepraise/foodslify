@@ -156,6 +156,7 @@ Project Link: [https://github.com/nwokoyepraise/foodslify](https://github.com/nw
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [othneildrew](https://github.com/othneildrew)
+* [Divine Chukwudi](https://thevine.tech/)
 
 
 
